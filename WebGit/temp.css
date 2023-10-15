@@ -1,0 +1,41 @@
+html{
+    background-color:#FFD9B7;
+}
+
+h1{
+    color:#7EAA92;
+    font-family: 'Young Serif', serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 92px;
+}
+h3{
+    font-size: 75px;
+    
+}
+img[us]{
+    width:400px;
+    height:350px;
+    float:right;
+    border:20px solid #FFD9B7;
+        border-width: 20px 30px 30px 5px;
+    border-radius: 60%;
+    transition: 0.5s ease-in-out;
+    box-shadow:black;
+}
+img[us]:hover{
+    border-width: 30px 5px 20px 30px;
+}
+p[text]{
+    color:#1d7755;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}   
+img[spooky]{
+    width:350px;
+    height:230px;
+    transition:0.35s ease-in-out;    
+}
+img[spooky]:hover{
+    box-shadow:7px 7px 5px 2px rgb(68, 64, 64);
+}

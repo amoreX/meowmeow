@@ -1,0 +1,41 @@
+.coloumnflex{
+    display:flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+}
+.col-lg-6{
+    transition: 0.35s ease-in-out;
+}
+.col-lg-6:hover{
+    box-shadow: 3px 3px 3px 3px rgb(104, 171, 148);
+}
+.col-lg-3{
+    transition: 0.35s ease-in-out;
+}
+.col-lg-3:hover{
+    box-shadow: 3px 3px 3px 3px rgb(104, 171, 148);
+}
+
+.one{
+    width: 200px;
+    transition: 0.35s ease-in-out ;
+}
+.one:hover{
+    box-shadow:7px 7px 7px 7px rgb(195, 169, 185);
+}
+.card-img-top{
+    transition: 0.35s ease-in-out;
+}
+.card-img-top:hover{
+    box-shadow:1px 1px 5px 5px rgb(122, 177, 229);
+}
+.flexbox_card{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:100vh;
+}
+
+
+
